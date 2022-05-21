@@ -30,3 +30,19 @@ const natalia = {
           "Curso de Unreal Engine"
       ]
     )
+
+// Creando un prototipo con sitanxis de clases
+
+class student2 {
+    constructor({name, age, cursosAprobados}){
+        this.name = name;
+        this.age = age;
+        this.cursosAprobados = cursosAprobados;
+    }
+
+    aprobarCurso = function(nuevoCurso) {
+        this.cursosAprobados.push(nuevoCurso);
+    }
+}
+
+const carlos = new student2({name: "Carlitox", age: 12, cursosAprobados: ["Curso de piloto aviador", "Curso de oratoria"]})
