@@ -46,3 +46,5 @@ class student2 {
 }
 
 const carlos = new student2({name: "Carlitox", age: 12, cursosAprobados: ["Curso de piloto aviador", "Curso de oratoria"]})
+
+// Challenge
