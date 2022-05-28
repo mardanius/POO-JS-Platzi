@@ -49,6 +49,34 @@ const carlos = new student2({name: "Carlitox", age: 12, cursosAprobados: ["Curso
 
 // Challenge
 
+function videoPlay(id){
+    const urlSecreta = "https://servidorsecreto.com/"  + id;
+    console.log("Reproduciendo la url " + urlSecreta)
+}
+
+function videoStop(id){
+    const urlSecreta = "https://servidorsecreto.com/" + id;
+    console.log("Pausado el video de la url " + urlSecreta);
+}
+
+export class PlatziClases {
+    constructor({
+        name,
+        videoID
+    }) {
+        this.name = name;
+        this.videoID = videoID;
+    }
+
+    reproducir(){
+        videoPlay(this.videoID);
+    }
+
+    pausar(){
+        videoStop(this.videoID);
+    }
+}
+
 class LearningPath{
     constructor({name, courses}){
         this.name = name;
