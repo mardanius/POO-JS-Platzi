@@ -1,0 +1,82 @@
+2. ¿Qué es _proto_ en JS?
+El mecanismo para que las instancias hereden los métodos y atributos de sus prototipos.
+
+3. ¿Cuál de las siguientes afirmaciones sobre los objetos en JS es INCORRECTA?
+Los objetos literales NO son instancias de ningún prototio.
+
+4. ¿Qué son los objetos literales en JS?
+Instancias directas del prototipo Object.
+
+5. ¿Qué son las clases en JS?
+Una sintaxis más amigable para los prototipos de JS.
+
+6. ¿Qué es programación orientada a objetos?
+Un paradigma de programación (Imperativo).
+
+7. ¿Cuáles son las ventajas de utilizar programación orientada a objetos?
+Orden, reusabilidad y menos líneas de código a largo plazo.
+
+8. Completa la frase. "Todos los paradigmas de programación..."
+Intentan resolver los problemas, falencias o incomodidades de los paradigmas históricamentes anteriores.
+
+9. ¿Cuál de las siguientes es una mejor forma de calificar nuestro código JS?
+Legibilidad.
+
+10. ¿Cuáles son los pilares de la POO?
+Abstracción, encapsulamiento, herencia y poliformismo.
+
+11. ¿Qué es abstracción en JS?
+Crear prototipos "moldes" para abstraer la lógica y datos de nuestros objetos.
+
+12. ¿Qué es herencia en JS?
+La capacidad de heredar/extender los métodos y atributos de un prototipo "madre".
+
+13. ¿Qué es poliformismo en JS?
+Anular o modificar el comportamiento de los métodos y/o atribujots heredados de prototipos "madre".
+
+14. Los atributos __proto__ en los objetos de JS pueden contener otro atributo __proto__ por dentro. Esto es:
+Verdadero.
+
+15. Para aplicar la herencia en JS. ¿cómo podemos ejecutar el método constructor del prototipo del que extendemos?
+Con el método super.
+
+16. Los módulos de ECMAScript 6 nos permiten:
+Aplicar encapsulamiento a nivel de archivos.
+
+17. ¿Cómo podrías crear un getter que exponga al atribujoto "privado" _name en JS?
+get name() { return this._name; } 
+
+18. ¿Cuál de las siguientes líneas de código para acceder al atributo de un objeto en JS es INCORRECTA?
+objeto->atributo
+
+19. ¿Qué son los prototipos en JS?
+Moldes para crear objetos.
+
+20. ¿Si todos los arrays tienen el método .push dentro de su atributo __proto__,
+cuál es la forma más cómoda de ejecutarlo desde el array asignaturas en JS?
+asignaturas.push();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
